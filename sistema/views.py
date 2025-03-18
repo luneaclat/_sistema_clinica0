@@ -7,5 +7,9 @@ def index(request):
     'global/base.html',
     )
 
-
+def seunome(request):
+    return render(
+    request,
+    'global/seunome.html',
+    )
 # REQUEST E RESPONSE E RENDER
